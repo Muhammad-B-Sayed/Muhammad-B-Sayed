@@ -59,8 +59,6 @@ I like turning practical problems into polished software: cloud services, real-t
 
 ### [PR-Pilot](https://github.com/Muhammad-B-Sayed/PR-Pilot)
 
-**Role:** Software Engineer
-
 - Built a deployed serverless AI pull request review assistant that reviews pasted diffs and GitHub pull requests.
 - Implemented a Go backend on AWS Lambda with API Gateway, SQS async webhook processing, DynamoDB persistence, and CloudWatch logging.
 - Designed a multi-stage review pipeline that produces structured summaries, risk levels, potential issues, security notes, suggested tests, and final PR comments.
@@ -77,8 +75,6 @@ I like turning practical problems into polished software: cloud services, real-t
 
 ### [ChannelWire](https://github.com/Muhammad-B-Sayed/Channel-Wire)
 
-**Role:** Software Engineer
-
 - Built a production-style real-time messaging platform with a C11 TCP core, FastAPI REST/WebSocket gateway, PostgreSQL persistence, and React dashboard.
 - Implemented concurrent socket handling with POSIX sockets, non-blocking I/O, `poll()`, custom binary framing, direct messages, channels, and server stats.
 - Added robustness features including backpressure-safe outgoing queues, malformed-frame rejection, oversized payload handling, sanitizer builds, and load tests.
@@ -93,9 +89,24 @@ I like turning practical problems into polished software: cloud services, real-t
 
 ---
 
-### [LockIn Study Tool](https://github.com/Muhammad-B-Sayed/lockIn-study-tool)
+### [URL Shortlink](https://github.com/BrandonKochnari/url-shortlink)
 
-**Role:** Software Engineer
+- Built a production-style URL shortener with guest link creation, authenticated dashboards, custom aliases, expirations, redirects, and click analytics.
+- Implemented FastAPI endpoints for authentication, link management, redirect tracking, analytics, and persistence.
+- Added JWT bearer auth, password hashing, rate limiting, PostgreSQL-backed data models, Alembic migrations, and automated API tests.
+- Shipped the product with React, TypeScript, Vercel, Render, Docker, and Nginx.
+
+![Python 3](https://img.shields.io/badge/Python%203-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![React](https://img.shields.io/badge/React-149ECA?style=flat-square&logo=react&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+---
+
+### [LockIn Study Tool](https://github.com/Muhammad-B-Sayed/lockIn-study-tool)
 
 - Built a study planning workspace for tasks, deadlines, calendar planning, quotes, account management, and a focused dashboard experience.
 - Developed a Spring Boot API with JWT-based authentication, protected account flows, PostgreSQL persistence, and Flyway migrations.
@@ -108,24 +119,6 @@ I like turning practical problems into polished software: cloud services, real-t
 ![React](https://img.shields.io/badge/React-149ECA?style=flat-square&logo=react&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-
----
-
-### [URL Shortlink](https://github.com/BrandonKochnari/url-shortlink)
-
-**Role:** Software Engineer
-
-- Built a production-style URL shortener with guest link creation, authenticated dashboards, custom aliases, expirations, redirects, and click analytics.
-- Implemented FastAPI endpoints for authentication, link management, redirect tracking, analytics, and persistence.
-- Added JWT bearer auth, password hashing, rate limiting, PostgreSQL-backed data models, Alembic migrations, and automated API tests.
-- Shipped the product with React, TypeScript, Vercel, Render, Docker, and Nginx.
-
-![Python 3](https://img.shields.io/badge/Python%203-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![React](https://img.shields.io/badge/React-149ECA?style=flat-square&logo=react&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
 ---
 
