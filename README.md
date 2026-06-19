@@ -1,12 +1,12 @@
 <div align="center">
 
-![Muhammad Sayed profile banner](https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,100:22c55e&height=220&section=header&text=Muhammad%20Sayed&fontSize=54&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Engineer%20%7C%20Backend%20Systems%20%7C%20Data-Driven%20Products&descAlignY=58&descSize=17)
+![Muhammad Sayed profile banner](https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,100:22c55e&height=220&section=header&text=Muhammad%20Sayed&fontSize=54&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Engineer%20%7C%20Cloud%20Systems%20%7C%20Data-Driven%20Products&descAlignY=58&descSize=17)
 
 # Muhammad Sayed
 
-**Software engineer focused on building reliable APIs, clean web products, and data-driven tools.**
+**Software engineer focused on building reliable APIs, cloud-backed systems, and production-minded developer tools.**
 
-I like turning practical problems into polished software: study planning systems, production-style API products, and analysis tools that make messy data easier to understand.
+I like turning practical problems into polished software: cloud services, real-time systems, study planning tools, and production-style API products.
 
 </div>
 
@@ -14,10 +14,10 @@ I like turning practical problems into polished software: study planning systems
 
 ## What I Build
 
-- Software products with **React**, **TypeScript**, **Java / Spring Boot**, **Python / FastAPI**, and **PostgreSQL**
+- Software products with **React**, **TypeScript**, **Java / Spring Boot**, **Python / FastAPI**, **Go**, **C**, and **PostgreSQL**
 - Secure backend systems with **JWT authentication**, database migrations, API design, and test coverage
-- Product dashboards, routing flows, analytics views, and deployment-ready web experiences
-- Data analysis tools using graph structures, balanced trees, CSV pipelines, and interactive visualizations
+- Cloud and systems projects with **AWS Lambda**, **SQS**, **DynamoDB**, POSIX sockets, WebSockets, and Docker
+- Developer-focused tools, real-time systems, and deployment-ready web experiences
 
 ---
 
@@ -27,15 +27,18 @@ I like turning practical problems into polished software: study planning systems
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111111)
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 
-### Backend & Databases
+### Backend, Cloud & Databases
 
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
+![AWS Lambda](https://img.shields.io/badge/AWS%20Lambda-FF9900?style=for-the-badge&logo=awslambda&logoColor=white)
+![Amazon DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=for-the-badge&logo=amazondynamodb&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white)
 ![JWT](https://img.shields.io/badge/JWT%20Auth-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
@@ -53,6 +56,42 @@ I like turning practical problems into polished software: study planning systems
 ---
 
 ## Featured Projects
+
+### [PR-Pilot](https://github.com/Muhammad-B-Sayed/PR-Pilot)
+
+**Role:** Software Engineer
+
+- Built a deployed serverless AI pull request review assistant that reviews pasted diffs and GitHub pull requests.
+- Implemented a Go backend on AWS Lambda with API Gateway, SQS async webhook processing, DynamoDB persistence, and CloudWatch logging.
+- Designed a multi-stage review pipeline that produces structured summaries, risk levels, potential issues, security notes, suggested tests, and final PR comments.
+- Integrated GitHub webhooks, HMAC signature validation, PR diff fetching, PR comment posting, AWS SAM infrastructure, and automated Go tests.
+
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![AWS Lambda](https://img.shields.io/badge/AWS%20Lambda-FF9900?style=flat-square&logo=awslambda&logoColor=white)
+![Amazon Bedrock](https://img.shields.io/badge/Amazon%20Bedrock-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+![SQS](https://img.shields.io/badge/SQS-FF4F8B?style=flat-square&logo=amazonsqs&logoColor=white)
+![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=flat-square&logo=amazondynamodb&logoColor=white)
+![GitHub API](https://img.shields.io/badge/GitHub%20API-181717?style=flat-square&logo=github&logoColor=white)
+
+---
+
+### [ChannelWire](https://github.com/Muhammad-B-Sayed/Channel-Wire)
+
+**Role:** Software Engineer
+
+- Built a production-style real-time messaging platform with a C11 TCP core, FastAPI REST/WebSocket gateway, PostgreSQL persistence, and React dashboard.
+- Implemented concurrent socket handling with POSIX sockets, non-blocking I/O, `poll()`, custom binary framing, direct messages, channels, and server stats.
+- Added robustness features including backpressure-safe outgoing queues, malformed-frame rejection, oversized payload handling, sanitizer builds, and load tests.
+- Shipped a deployable system with Docker Compose, Alembic migrations, GitHub Actions CI, Render backend config, and Vercel frontend config.
+
+![C11](https://img.shields.io/badge/C11-00599C?style=flat-square&logo=c&logoColor=white)
+![POSIX Sockets](https://img.shields.io/badge/POSIX%20Sockets-111827?style=flat-square)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=flat-square&logo=socketdotio&logoColor=white)
+![React](https://img.shields.io/badge/React-149ECA?style=flat-square&logo=react&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+
+---
 
 ### [LockIn Study Tool](https://github.com/Muhammad-B-Sayed/lockIn-study-tool)
 
@@ -87,23 +126,6 @@ I like turning practical problems into polished software: study planning systems
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![React](https://img.shields.io/badge/React-149ECA?style=flat-square&logo=react&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-
----
-
-### [Congress Trade Analysis](https://github.com/Muhammad-B-Sayed/congress-trade-analysis)
-
-**Role:** Software Engineer
-
-- Built a data analysis and visualization project for exploring congressional stock trading patterns through graph and balanced BST representations.
-- Processed raw CSV transaction data into focused datasets for representative-level analysis.
-- Computed win-rate style metrics and modeled relationships between politicians, parties, and market sectors.
-- Generated balanced BST diagrams and interactive network visualizations with Graphviz and Plotly.
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![NetworkX](https://img.shields.io/badge/NetworkX-2D3748?style=flat-square)
-![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white)
-![Graphviz](https://img.shields.io/badge/Graphviz-E6522C?style=flat-square)
-![Data Structures](https://img.shields.io/badge/Data%20Structures-111827?style=flat-square)
 
 ---
 
